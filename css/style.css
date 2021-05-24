@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #eeeeee;
+}
+
+.container_1 {
+    width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#home {
+    height: 100vh;
+}
+
+.home__menu {
+    display: flex;
+    align-items: center;
+}
+
+.home__menu-link {
+    display: flex;
+    margin-left: 200px;
+
+}
+
+.home__menu-link li {
+    margin-left: 30px;
+}
+
+
+.home__menu-link li a {
+    color: black;
+    font-size: 16px;
+    transition: .2s;
+}
+
+.home__menu-link li a:hover {
+    color: red;
+    border-bottom: red 1px solid;
+}
+/*-----------------------------------------*/
+
+
+.home__contact {
+    margin-top: 10px;
+    height: 30px;
+    background: red;
+
+}
+
+.home__contact ul {
+    display: flex;
+    padding-top: 8px;
+    justify-content: space-around;
+}
+
+.home__contact ul li a {
+    color: white;
+    transition: .2s;
+}
+
+
+.home__contact ul li a:hover {
+    color: #ddd;
+}
+
+
+.home__content {
+    background: url(https://paper.kg/wp-content/uploads/2019/04/main33.jpg) no-repeat center/cover;
+    height: 660px;
+
+}
+
+.home__content h2{
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+
+}
+
+.home__content h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.home__content a {
+    border: 2px red solid;
+    color: red;
+    padding: 10px 30px;
+    transition: .3s;
+}
+
+.home__content a:hover {
+    background: red;
+    color: white;
+}
+
+.home__content-wrap {
+    text-align: center;
+    padding-top: 300px;
+}
+
+
+/*---------------------------------------*/
+
+.tovar__title {
+    padding-top: 30px;
+    border-bottom: 2px black solid;
+}
+
+.tovar__wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tovar__wrap {
+    width: 200px;
+}
+
+.tovar__wrap h2 {
+    font-size: 16px;
+}
+.tovar__wrap p {
+    font-size: 13px;
+    text-align: justify;
+}
+.tovar__wrap h3 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.tovar__wrap {
+    transition: .2s;
+}
+
+.tovar__wrap:hover {
+    transform: scale(1.1);
+}
+
+/*----------------------------------------*/
+
+
+.uslug__title {
+    padding-top: 30px;
+    border-bottom: 2px black solid;
+}
+
+.uskug__wrapper {
+    display: flex;justify-content: space-between;
+}
+
+.uslug__wrap {
+    margin-top: 10px;
+    border: 3px red solid;
+    width: 200px;
+    text-align: center;
+    padding: 40px 15px;
+}
+
+.uslug__wrap h1 {
+    margin-bottom: 20px;
+}
+
+.uslug__wrap a {
+    border: 2px red solid;
+    padding: 5px 20px;
+    color: red;
+    transition: .3s;
+}
+
+.uslug__wrap a:hover {
+    background: red;
+    color: white;
+}
+
+.footer {
+    margin-top: 40px;
+    height: 25px;
+    background: red;
+}
+
+.footer__title {
+    padding-top: 6px;
+    text-align: center;
+    color: white;
+}
+
+.footer_1 {
+    padding-top: 360px;
+}
+
+/*------------------------------------*/
+
+.about__wrapper {
+    padding:30px 0;
+    height: 30px;
+    background: #ce0000;
+    margin-bottom: 500px;
+}
+
+.about__wrap h1 {
+    text-align: center;
+    color: white;
+}
+
+.about__wrap p {
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.about__wrap p span {
+    font-weight:  600;
+}
+
+
+/*---------------------------------------*/
+
+
+.dos__wrapper {
+    padding:30px 0;
+    height: 30px;
+    background: #ce0000;
+    margin-bottom: 500px;
+}
+
+.dos__wrap h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.dos__wrap h3 {
+    text-align: center;
+}
+
+.dos__wrap p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.dos__wrap p span {
+    font-weight:  600;
+}
+
+.contact__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact__wrap {
+    width: 250px;
+}
+
+
+.contact__wrap-obr {
+    display: block;
+
+}
+
+.contact__wrap-obr a {
+    color: white;
+    background: red;
+    padding: 10px 30px;
+    transition: .2s;
+}
+
+.contact__wrap-obr a:hover {
+    color: yellow;
+    background: black;
+}
+
+.contact__title {
+    margin-bottom: 30px;
+}
+
+.name_number {
+    padding: 10px 70px 10px 10px;
+    margin-bottom: 30px;
+}
+
+.email {
+    color: black;
+    transition: .2s;
+}
+
+.email:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
